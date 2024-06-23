@@ -1,5 +1,6 @@
 import { useRoutes } from "react-router-dom";
 import HomePage from "./pages/home/HomePage";
+import PickAColorPage from "./pages/PickAColor/PickAColorPage";
 
 
 function App() {
@@ -9,6 +10,10 @@ function App() {
       path: "/",
       element : <HomePage></HomePage>
     },
+    {
+      path: "/pick-a-color",
+      element : <PickAColorPage></PickAColorPage>
+    }
   ]);
 
 

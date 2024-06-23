@@ -1,0 +1,68 @@
+.pickAColorPage {
+
+    display: flex;
+    padding : 20px;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    margin-top : 100px;
+
+    .box {
+
+        width : 100px;
+        height: 100px;
+        display: flex;
+        
+        align-items: center;
+        justify-content: center;
+        background-color: silver;
+        color:  #fff;
+        font-weight : 600;
+        cursor: pointer;
+
+        &.red {
+
+            background-color: red;
+
+        }
+
+        &.green {
+
+            background-color: green;
+
+        }
+
+        &.blue {
+
+            background-color: blue;
+
+        }
+        &.silver {
+
+            background-color: silver;
+
+        }
+
+    }
+
+    .pickAColorStage {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        border : 1px dashed #000;
+        padding : 20px;
+
+    }
+
+    .colorPicker {
+
+        display: flex;
+        gap: 10px;
+        border : 1px dashed #000;
+        padding : 20px;
+
+    }
+
+}
