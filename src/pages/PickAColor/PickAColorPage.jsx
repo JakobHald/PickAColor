@@ -51,7 +51,7 @@ const PickAColorPage = ( { }) => {
     );
 
     const selectColor = (color) => {
-        setColorClass(color);
+        setColorClass(color)
     }
 
 
