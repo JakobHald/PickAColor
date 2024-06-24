@@ -2,7 +2,7 @@ import { useState } from 'react';
 import styles from './pickAColorPage.module.css';
 import BoxCreator from '../../components/boxCreator/BoxCreator';
 
-const PickAColorPage = ( { }) => {
+const PickAColorPage = ( ) => {
 
     const [colorClass, setColorClass] = useState(styles.silver)
     const [boxes, setBoxes] = useState(
